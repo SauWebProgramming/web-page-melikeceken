@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ <style>
+  
+
+ 
+
+</style>
+</head>
+<body>
+    <center>
+    <div id="container">
+  
+        <img class="slides" src="hindistancevizlikurabiye.jpg"/>
+        <img class="slides" src="Avokadososlubaharatlısalata.jpg"/>
+        <img class="slides" src="fırındapatlıcan.jpg.jpg"/>
+        <img class="slides" src="elmalısmoothie.jpg"/>
+        <img class="slides" src="ezogelin.jpg"/>
+        <img class="slides" src="Evyapımıgranolabar.jpg"/>
+        <img class="slides" src="dondurmalıirmikhelvasıtarifi.jpg"/>
+        <img class="slides" src="kabaklıtazefasulye.jpg"/>
+        <img class="slides" src="baharatlımısır.jpg"/>
+        <img class="slides" src="balkabaklıcheesecake.jpg"/>
+        <img class="slides" src="balkabaklıkek.jpg"/>
+        <img class="slides" src="balkabaklımuffin.jpg"/>
+        <img class="slides" src="balkabaklırulopasta.jpg"/>
+        <img class="slides" src="çileklilimonata.jpg"/>
+        <img class="slides" src="cikolatalıbrowni.jpg"/>
+        <img class="slides" src="çobansalata.jpg"/>
+        <img class="slides" src="çorba.jpg.jpg"/>
+        <img class="slides" src="fırındapatatescipsi.jpg"/>
+        <img class="slides" src="fırınlanmışdomatessalata.jpg"/>
+        <img class="slides" src="ıspanak.jpg"/>
+        <img class="slides" src="içecek.jpg.jpg"/>
+        <img class="slides" src="ikirenklipilav.jpg.jpg"/>
+        <img class="slides" src="kabaktatlısı.jpg"/>
+        <img class="slides" src="kahvelisufle.jpg"/>
+        <img class="slides" src="Karışıksebzelimantardolması.jpg"/>
+        <img class="slides" src="kepeklipoğaça.jpg"/>
+        <img class="slides" src="kahvelimilkshake.jpg"/>
+        <img class="slides" src="kuptagüllaç.jpg"/>
+        <img class="slides" src="tatlı.jpg.jpg"/>
+        <img class="slides" src="tavuklusezarsalata.jpg"/>
+        <img class="slides" src="yaylaçorbası.jpg"/>
+        <img class="slides" src="yumurtalıdomates.jpg"/>
+        <img class="slides" src="zencefillilevrek.jpg"/>
+        <img class="slides" src="tonbalıklıkinoa.jpg"/>
+        <img class="slides" src="sarımsaklıunçorbası.jpg"/>
+
+       <button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
+        <button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+          
+        </div>
+    </center>
+</body>
+<script>
+ 
+    var index = 1;
+    function plusIndex(n){
+     index = index + n;
+     showImage(index);
+    }
+    showImage(1);
+    function showImage(n){
+      var i;
+      var x = document.getElementsByClassName("slides");
+      if(n > x.length){index = 1};
+      if(n < 1){index = x.length};
+      for (i=0;i<x.length;i++)
+       x[i].style.display = "none";
+       x[index-1].style.display = "block";
+    }
+    </script>
+</html>
