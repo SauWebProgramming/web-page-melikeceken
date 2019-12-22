@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>slider</title>
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000);
+        }
+    </script>
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="fotoğraf">
+            <div class="numbertext">1 / 10</div>
+            <img src="hindistancevizlikurabiye.jpg" style="width:70%">
+          >
+        </div>
+
+        <div class="fotoğraf">
+            <div class="numbertext">2 / 10</div>
+            <img src="muzluhurmalısmoothie.jpg" style="width:70%">
+            
+        </div>
+
+        <div class="fotoğraf">
+            <div class="numbertext">3 / 10</div>
+            <img src="çileklilimonata.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">4 / 10</div>
+            <img src="Avokadososlubaharatlısalata.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">5/ 10</div>
+            <img src="kirazlıbuzluçay.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">6 / 10</div>
+            <img src="kepeklipoğaça.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">7 / 10</div>
+            <img src="fırındapatatescipsi.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">8 / 10</div>
+            <img src="fırındapatlıcan.jpg.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">9 / 10</div>
+            <img src="fırınlanmışdomatessalata.jpg" style="width:70%" >
+            
+        </div>
+        <div class="fotoğraf">
+            <div class="numbertext">10/ 10</div>
+            <img src="dondurmalıirmikhelvasıtarifi.jpg" style="width:70%" >
+            
+        </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+  
+</body>
+</html>
