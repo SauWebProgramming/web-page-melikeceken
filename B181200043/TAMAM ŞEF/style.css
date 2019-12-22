@@ -17,7 +17,7 @@ body{
     height:200px;
     width: 100px;
     float: left;
-    margin-left: 150px;
+    margin-left: 350px;
   
     
 }
@@ -251,5 +251,127 @@ border-width: 20px 25px 20px 25px;
   border-color:rgb(111, 68, 124) ;
   height:502px;
 
+
+}
+.vegan{
+background-color: rgb(235, 235, 221);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(109, 96, 97);
+    padding: 0px 0px;
+    text-decoration: none;
+    border: 5x solid rgb(139, 131, 131);
+    transition: all .5s ease;
+    line-height: 50px;
+    height:50px;
+
+}
+.mücver{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(111, 68, 124) ;
+  height:800px;
+
+}
+.nohut{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(24, 100, 96) ;
+  height:600px;
+
+}
+.granola{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(93, 114, 35);
+  height:800px;
+}
+.Tatlılar{
+  background-color: rgb(235, 235, 221);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(109, 96, 97);
+  padding: 0px 0px;
+  text-decoration: none;
+  border: 5x solid rgb(139, 131, 131);
+  transition: all .5s ease;
+  line-height: 50px;
+  height:50px;
+}
+.balkabaklıkek{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(93, 114, 35);
+  height:600px;
+}
+.hindistancevizlikurabiye{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(24, 100, 96) ;
+  height:700px;
+}
+.balkabaklırulopasta{
+
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(53, 70, 69) ;
+  height:950px;
+
+}
+.kahvelisufle{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(38, 235, 225) ;
+  height:700px;
 }
 
+.balkabaklımuffin{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(1, 24, 23) ;
+  height:800px;
+}
+
+.dondurmalıirmikhelvasıtarifi{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(0, 0, 0) ;
+  height:900px;
+}
+.balkabaklıcheesecake{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(91, 24, 100) ;
+  height:900px;
+}
+.cikolatalıbrowni{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(100, 24, 24) ;
+  height:700px;
+}
+.balkabaklıtrifle{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(100, 82, 24) ;
+  height:800px;
+}
+.kabaktatlısı{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(24, 100, 24) ;
+  height:560px;
+}
