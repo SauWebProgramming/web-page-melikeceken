@@ -1,10 +1,12 @@
 body{
  background-color: rgba(202, 177, 177, 0.493)
 }
-.buton1{
 
+
+.buton1{
+     
     background-color: rgb(255, 0, 0);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -12,11 +14,16 @@ body{
     border: 50x solid red;
     transition: all .5s ease;
     line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
+    margin-left: 150px;
+  
     
 }
 .buton2{
     background-color:rgb(192, 118, 58);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -24,11 +31,14 @@ body{
     border: 50x solid red;
     transition: all .5s ease;
     line-height: 20px;
-    
+    height:200px;
+    width: 100px;
+    float: left;
+     
 }
 .buton3{
     background-color:rgb(93, 114, 35);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -36,23 +46,14 @@ body{
     border: 50x solid red;
     transition: all .5s ease;
     line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
     
 }
 .buton4{
     background-color:rgb(24, 100, 96);
-    font-size: 20px;
-    font-weight: bold;
-    color: saddlebrown;
-    padding: 10px 2s0px;
-    text-decoration: none;
-    border: 50x solid red;
-    transition: all .5s ease;
-    line-height: 20px;
-    
-}
-.buton5{
-    background-color:rgb(21, 13, 51);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -60,23 +61,42 @@ body{
     border: 50x solid red;
     transition: all .5s ease;
     line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
+}
+.buton5{
+    background-color:rgb(21, 13, 51);
+    font-size: 30px;
+    font-weight: bold;
+    color: saddlebrown;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 50x solid red;
+    transition: all .5s ease;
+    line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
     
 }
 .buton6{
     background-color:rgb(60, 9, 75);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
     text-decoration: none;
     border: 50x solid red;
     transition: all .5s ease;
-    line-height: 10px;
-
+    line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
 }
     .buton7{
     background-color:rgb(165, 5, 72);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -84,10 +104,13 @@ body{
     border: 50x solid rgb(12, 12, 12);
     transition: all .5s ease;
     line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
     }
     .buton8{
     background-color: rgb(116, 6, 48);
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: saddlebrown;
     padding: 10px 20px;
@@ -95,30 +118,38 @@ body{
     border: 50x solid rgb(5, 1, 1);
     transition: all .5s ease;
     line-height: 20px;
+    height:200px;
+    width: 100px;
+    float: left;
     }
     .buton9
     {
         background-color: rgba(255, 0, 43, 0.705);
-        font-size: 20px;
+        font-size: 30px;
         font-weight: bold;
         color: saddlebrown;
-        padding: 10px 2s0px;
+        padding: 10px 20px;
         text-decoration: none;
         border: 50x solid rgb(15, 8, 8);
         transition: all .5s ease;
         line-height: 20px;
+        height:200px;
+        width: 100px;
+        float: left;
     }
 
     .anayemek{
     background-color: rgb(235, 235, 221);
     font-size: 20px;
     font-weight: bold;
-    color: rgb(139, 19, 25);
+    color: rgb(109, 96, 97);
     padding: 0px 0px;
     text-decoration: none;
-    border: 100x solid red;
+    border: 5x solid rgb(139, 131, 131);
     transition: all .5s ease;
     line-height: 50px;
+    height:50px;
+    
 }
 .kabaklıtazefasulye{
     
@@ -126,6 +157,8 @@ body{
   padding: 10px 20px;
   border-style: solid;
   border-color:rgb(192, 118, 58) ;
+  height:600px;
+ 
 
 }
 .fırındapatlıcan{
@@ -133,12 +166,14 @@ border-width: 20px 25px 20px 25px;
   padding: 10px 20px;
   border-style: solid;
   border-color:rgb(93, 114, 35);
+  height:900px
 }
 .parmesan{
 border-width: 20px 25px 20px 25px;
   padding: 10px 20px;
   border-style: solid;
   border-color:rgb(24, 100, 96) ;
+  height:600px
 }
 .ıspanak{
 
@@ -146,6 +181,7 @@ border-width: 20px 25px 20px 25px;
   padding: 10px 20px;
   border-style: solid;
   border-color:rgb(60, 9, 75) ;
+  height:600px
 
 }
 .MısırlıPilav{
@@ -153,5 +189,67 @@ border-width: 20px 25px 20px 25px;
   padding: 10px 20px;
   border-style: solid;
   border-color:rgb(116, 6, 48) ;
+  height:600px
+}
+.gününmenüsü{
+  background-color: rgb(235, 235, 221);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(109, 96, 97);
+    padding: 0px 0px;
+    text-decoration: none;
+    border: 5x solid rgb(139, 131, 131);
+    transition: all .5s ease;
+    line-height: 50px;
+    height:50px;
+    
+ 
+}
+.mercimek{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(192, 118, 58) ;
+  height:810px;
+
+}
+.patlıcan{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(93, 114, 35);
+  height:850px;
+}
+.ikirenklipilav{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(24, 100, 96) ;
+  height:600px;
+
+}
+.çobansalata{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(60, 9, 75) ;
+  height:600px;
+
+}
+.güllaç{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(0, 0, 0) ;
+  height:700px
+}
+
+.ayran{
+  border-width: 20px 25px 20px 25px;
+  padding: 10px 20px;
+  border-style: solid;
+  border-color:rgb(111, 68, 124) ;
+  height:502px;
+
 }
 
